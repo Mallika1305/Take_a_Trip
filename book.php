@@ -54,48 +54,51 @@
   <div class="flex">
     <div class="inputBox">
       <span>name :</span>
-      <input type="text" placeholder="enter your name" name="name">
+      <input type="text" placeholder="enter your name" name="name"  pattern="[A-Z]{3,15}" required>
     </div>
 
     <div class="inputBox">
       <span>email :</span>
-      <input type="email" placeholder="enter your email" name="email">
+      <input type="email" placeholder="enter your email" name="email" required>
     </div>
 
     <div class="inputBox">
       <span>phone :</span>
-      <input type="number" placeholder="enter your number" name="phone">
+      <input type="number" placeholder="enter your number" name="phone" pattern="[0-9]{10}" required>
     </div>
 
     <div class="inputBox">
       <span>address :</span>
-      <input type="text" placeholder="enter your address" name="address">
+      <input type="text" placeholder="enter your address" name="address" required>
     </div>
 
     <div class="inputBox">
       <span>where to :</span>
-      <input type="text" placeholder="place you want to visit" name="location">
+      <input type="text" placeholder="place you want to visit" name="location"  pattern="[a-z]{3,15}"  required>
     </div>
 
     <div class="inputBox">
       <span>how many :</span>
-      <input type="number" placeholder="number of guests" name="guests">
+      <input type="number" placeholder="number of guests" name="guests" required>
     </div>
 
     <div class="inputBox">
       <span>arrival :</span>
-      <input type="date"  name="arrival">
+      <input type="date"  name="arrival" required>
     </div>
 
 
     <div class="inputBox">
       <span>departure :</span>
-      <input type="date"  name="departure">
+      <input type="date"  name="departure" required>
     </div>
 
     
+
   
-  <input type="submit" value="submit" class="btn" name="send">
+  <input type="submit" value="submit" class="btn" name="send" >
+
+  
 
 
   

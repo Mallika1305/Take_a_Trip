@@ -101,7 +101,7 @@ section{
    position: sticky;
    top: 0; left: 0; right: 0;
    z-index: 1000;
-   background-color: var(--light-black);
+   background-color: rgb(212, 178, 226);
 
    display: flex;
    padding-top: 2rem;
@@ -572,9 +572,13 @@ section{
 }
 
 
-.booking .book-form .btn{
+.booking .btn{
+   text-align: center;
    margin-top: 2rem;
 }
+
+
+
 
 
 
