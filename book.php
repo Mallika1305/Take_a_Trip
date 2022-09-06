@@ -94,10 +94,12 @@
     </div>
 
     
+  
+  <input type="submit" value="submit" class="btn" name="send">
 
-    <input type="submit" value="submit" class="btn" name="send">
-    
 
+  
+  
 
 
   </div>
